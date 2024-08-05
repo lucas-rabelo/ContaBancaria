@@ -17,7 +17,7 @@ public class ContaTerminal {
         agencia = scanner.next();
 
         System.out.println("Por favor, digite a Nome Completo!");
-        nome_cliente = scanner.next();
+        nome_cliente = scanner.nextLine();
 
         while (true) {
             try {
